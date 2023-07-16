@@ -1,0 +1,12 @@
+# Write a Python program that returns a string that is n (non-negative integer) copies of a given string.
+
+def copy_of_string(txt, n):
+    r = ""
+    for i in range(n):
+        r = r + txt
+    return r
+
+s = str(input("enter any string you want to copy : "))
+x = int(input("how many time you want to copy above string : "))
+
+print(copy_of_string(s, x))

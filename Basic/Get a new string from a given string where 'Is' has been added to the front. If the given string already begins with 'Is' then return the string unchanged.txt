@@ -1,0 +1,9 @@
+# Write a Python program to get a newly-generated string from a given string where "Is" has been added to the front. Return the string unchanged if the given string already begins with "Is"
+
+def string_1(text):
+    if len(text) >=2 and ( text[:2] == "Is" or text[:2] == "is"):
+        return text
+    return "Is" + text
+
+s = str(input("enter any string : "))
+print(string_1(s))
