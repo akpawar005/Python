@@ -1,0 +1,10 @@
+# Write a program that concatenated all element sin a list into a string and return it.
+
+def list_concat(list):
+	r = ""
+	for element in  list:
+		r = r + str(element)
+	return r
+
+j =[1,12,3,4,78,96,43]
+print(list_concat(j))

@@ -1,0 +1,7 @@
+# write a python program to test weather a passd letter is a vowel or not.
+
+v = str(input("enter any letter : "))
+if v == "a" or v == "i" or v == "o" or v == "e" or v == "u" or v == "A" or v == "E" or v == "I" or v == "O" or v == "U":
+	print("entered letter is vowel.")
+else:
+	print("enter letter is not vowel.")

@@ -1,0 +1,9 @@
+# Write a Program that determine weather the number (accepted from the user ) is even or odd, and print an appropriate message to the user.
+
+n = int(input("enter any  number you want to check given number is even or not : "))
+
+if n%2==0:
+	print("Enter number is even.")
+else :
+	print("enter number is odd.")
+	

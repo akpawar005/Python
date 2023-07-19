@@ -1,0 +1,16 @@
+# Write a pythone program to get n (non negative interger) copies of the first two character of a given string. return n copies of the whole string if the length is less than 2.
+
+s = str(input("enter any string : "))
+n = int(input("how many time you want to copy string :"))
+l = len(s)
+l1 = 2
+
+if l1 > l:
+	l1=l
+substr = s[:l1]
+
+result = ""
+for i in range(n):
+	result = result + substr
+	
+print(result)
